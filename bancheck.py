@@ -1,7 +1,7 @@
 import requests
 import telebot     
 
-BOT_TOKEN = '7974575333:AAGNWYbi0IV1dG7mr5Bz4K7rf3BBaF35YB0'
+BOT_TOKEN = ''
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 
 def is_valid_uid(uid):
